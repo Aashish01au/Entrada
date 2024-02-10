@@ -1,0 +1,499 @@
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+    color: #fff !important;
+}
+
+.mposition {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999999;
+    object-fit: cover;
+    width: 100%;
+    // transform: translateX(-50%);
+}
+.hpb{
+   padding-top: 100px;
+}
+.main {
+    background-image: url();
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .box {
+        border: 10px solid gray;
+        background: #6A6857;
+
+        .box1 {
+            background: #383833;
+            padding: 10px;
+            border-radius: 5px;
+
+        }
+    }
+}
+
+.iwdth {
+    width: 100dvw;
+    height: 100dvh;
+
+}
+
+.boxd {
+    background: #252525;
+    color: gray;
+    padding: 10px;
+    text-align: center;
+    border-right: 2px solid black;
+
+}
+
+.rbd {
+    border-bottom: 1px solid black;
+}
+
+.txtp {
+    position: absolute;
+    bottom: 7px;
+    left: 35%;
+    z-index: 99999;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.txtpm {
+    position: absolute;
+    bottom: 7px;
+    left: 30%;
+    z-index: 99999;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.txtps {
+    position: absolute;
+    bottom: 7px;
+    left: 25%;
+    z-index: 99999;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.txtps:hover {
+    // background: green;
+    position: absolute;
+    bottom: 7px;
+    left: 25%;
+    z-index: 99999;
+    text-align: center;
+    color: #fff;
+    z-index: 2;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+}
+
+.lt {
+    line-height: 2;
+    font-size: 1.286em;
+
+    .pt {
+        font-size: 2.142857em;
+        margin-bottom: 35px;
+        letter-spacing: 0;
+        font-weight: 400;
+        font-family: "Poppins", sans-serif;
+        line-height: 1.1;
+    }
+}
+
+.bttn {
+    background: gray;
+    color: #fff;
+    text-align: center;
+    padding: 10px 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.bttn:hover {
+    background: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px 55px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+
+}
+
+.block1 {
+    i:hover {
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounce;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        /* don't forget to set a duration! */
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 92%;
+        opacity: 0;
+        margin: auto;
+        transition: .5s ease;
+        background-color: gray;
+    }
+
+    .box1:hover .overlay {
+        opacity: 0.8;
+    }
+
+    .bg1 {
+        p {
+            font: 1.4em/1.71429 "Poppins", sans-serif;
+            background: #474D4C;
+            padding: 45px 0;
+            border: 20px solid #5f6865;
+            color: #fff;
+            text-align: center;
+        }
+    }
+}
+
+.block2 {
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 92%;
+        opacity: 0;
+        margin: auto;
+        transition: .5s ease;
+        background-color: gray;
+    }
+
+    .box1:hover .overlay {
+        opacity: 0.8;
+    }
+
+    .box1 {
+        overflow: hidden;
+    }
+
+    .wh {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .wh:hover {
+        transform: scale(1.2);
+        transition: transform 0.2s linear;
+    }
+}
+
+.block3 {
+    .ani:hover {
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: backInLeft;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        /* don't forget to set a duration! */
+        color: black;
+        font-weight: bold;
+    }
+
+    .bg1 {
+        background: #252525;
+        color: #fff;
+        line-height: 150px;
+        display: block;
+        padding: 0 10px;
+        height: 100%;
+        letter-spacing: 4px;
+        text-align: center;
+        font-size: 1.286em;
+        text-transform: uppercase;
+    }
+
+    .bg1:hover {
+        color: #252525;
+        background: #B0A377;
+    }
+
+    .bg2 {
+        background: #1f2933;
+        color: #fff;
+        line-height: 150px;
+        display: block;
+        padding: 0 10px;
+        height: 100%;
+        letter-spacing: 4px;
+        text-align: center;
+        font-size: 1.286em;
+        text-transform: uppercase;
+    }
+
+    .bg2:hover {
+        color: #252525;
+        background: #B0A377;
+    }
+
+    .htxt:hover {
+        background: #B0A377;
+    }
+
+    .bt3n {
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px 55px;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+
+    .bt3n:hover {
+        background: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        padding: 10px 55px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+
+    }
+
+    .iwdth {
+        object-fit: cover;
+        width: 100dvw;
+        height: 100dvh;
+        background-size: cover;
+
+    }
+}
+
+.block4 {
+    .aa:hover .aaa {
+        display: inline-block;
+        margin: 0 0.5rem;
+        animation: bounceIn;
+        /* referring directly to the animation's @keyframe declaration */
+        animation-duration: 2s;
+        /* don't forget to set a duration! */
+        color: black;
+        font-weight: bold;
+    }
+
+    .wh {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .wh:hover {
+        transform: scale(1.2);
+        transition: transform 0.2s linear;
+    }
+
+    .aa:hover .h2 {
+        color: #B6AA82;
+    }
+
+    .aa:hover .p {
+        color: black;
+        font-weight: normal;
+    }
+
+    .box {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        transition: 1s;
+    }
+
+    .box:hover,
+    img:hover {
+        transform: scale(1);
+        z-index: 2;
+    }
+}
+
+.block5 {
+.icon1{
+   display: none;
+}
+.box1:hover .icon1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999999999;
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    background: white;
+    color: green;
+    
+ }
+    .overlay {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        margin: auto;
+        transition: .5s ease;
+        background-color: black;
+    }
+
+    .box1 {
+        i {
+            color: white;
+            font-weight: bolder;
+            background: #212529;
+            font-size: 25px;
+        }
+    }
+
+    .box1:hover .overlay {
+        opacity: 0.3;
+    }
+
+    .border {
+        position: absolute;
+        bottom: -45px;
+        left: 0;
+        z-index: 999999;
+        width: 100%;
+        transform: scale(0.8);
+        
+    }
+
+    .box1:hover .border {
+        transform: scaleX(0.9);
+        transform: scaleY(0.9);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .border2 {
+        position: absolute;
+        bottom: -45px;
+        left: 0;
+        z-index: 999999;
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .box1:hover .border2 {
+
+        transform: scaleY(0.9);
+        transition: 0.8s all ease-in-out;
+    }
+
+    .border3 {
+        position: absolute;
+        bottom: -45px;
+        left: 0;
+        z-index: 999999;
+        width: 100%;
+        transform: scale(0.8);
+    }
+
+    .box1:hover .border3 {
+        transform: scaleX(0.9);
+        transform: scaleY(0.9);
+        transition: 0.8s all ease-in-out;
+    }
+}
+
+.block6 {
+    background-image: url(https://themes.waituk.com/entrada-default/wp-content/uploads/sites/3/2019/04/testimonial-bg-1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.block7 {
+    .b7box:hover {
+        padding-bottom: 5px;
+        border-bottom: 1px solid black;
+    }
+}
+
+.footer {
+    background: #252525;
+    color: gray;
+}
+
+footer ul li {
+    h5 {
+        color: gray !important;
+    }
+
+    a {
+        color: gray !important;
+
+        i {
+            color: gray;
+        }
+    }
+}
+
+.ftext {
+    color: gray !important;
+}
+.iconss{
+    display: none;
+}
